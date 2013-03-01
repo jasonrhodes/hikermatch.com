@@ -3,4 +3,5 @@
 /sql-dump-*.sql
 /db-sync
 /content/upgrade/
+/config/*-config.php
 .DS_Store
