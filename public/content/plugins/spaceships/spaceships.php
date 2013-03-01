@@ -12,7 +12,21 @@
 
 function spaceships_register_object()
 {
-	$labels = array(
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+$labels = array(
 	    'name' => 'Spaceships',
 	    'singular_name' => 'Spaceship',
 	    'add_new' => 'Add New',
@@ -27,9 +41,11 @@ function spaceships_register_object()
 	    'parent_item_colon' => '',
 	    'menu_name' => 'Spaceships'
 	);
+
 	register_post_type("spaceships", array(
 		"labels" => $labels,
 		"public" => true
 	));
-}
-add_action("init", "spaceships_register_object");
+
+	add_action("init", "spaceships_register_object");
+*/
