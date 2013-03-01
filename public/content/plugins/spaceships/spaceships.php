@@ -33,3 +33,5 @@ function spaceships_register_object()
 	));
 }
 add_action("init", "spaceships_register_object");
+
+
