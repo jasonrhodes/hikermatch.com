@@ -10,6 +10,8 @@
  * License: A "Slug" license name e.g. GPL2
  */
 
+namespace rhodesjason\wordpress;	
+
 class CustomObject
 {
 	public $name;

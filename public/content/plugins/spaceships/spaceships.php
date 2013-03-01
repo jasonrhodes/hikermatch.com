@@ -12,6 +12,7 @@
  * Depends: Custom Object Class
  */
 
+use rhodesjason\wordpress\CustomObject;
 
 $spaceships = new CustomObject("spaceships", array("public" => true));
 
