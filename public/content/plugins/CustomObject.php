@@ -12,8 +12,6 @@
  * Provides: custom-objects
  */
 
-namespace rhodesjason\wordpress;	
-
 class CustomObject
 {
 	public $name;
