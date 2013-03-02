@@ -14,38 +14,3 @@ function spaceships_register_object()
 {
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-/*
-$labels = array(
-	    'name' => 'Spaceships',
-	    'singular_name' => 'Spaceship',
-	    'add_new' => 'Add New',
-	    'add_new_item' => 'Add New Spaceship',
-	    'edit_item' => 'Edit Spaceship',
-	    'new_item' => 'New Spaceship',
-	    'all_items' => 'All Spaceships',
-	    'view_item' => 'View Spaceship',
-	    'search_items' => 'Search Spaceships',
-	    'not_found' =>  'No spaceships found',
-	    'not_found_in_trash' => 'No spaceships found in Trash', 
-	    'parent_item_colon' => '',
-	    'menu_name' => 'Spaceships'
-	);
-
-	register_post_type("spaceships", array(
-		"labels" => $labels,
-		"public" => true
-	));
-
-	add_action("init", "spaceships_register_object");
-*/
