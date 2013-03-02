@@ -31,14 +31,14 @@ class CustomObject
 		$default_labels = $this->getDefaultLabels();
 		$this->labels = $labels + $default_labels;
 
+		$this->options["labels"] = $this->labels;
+
 		add_action("init", array($this, "register"));
 	}
 
 	public function register()
 	{
-		$options = $this->options + array("labels" => $this->labels);
-		// print_r($options); die();
-		register_post_type($this->name, $options);
+		register_post_type($this->name, $this->options);
 	}
 
 	public function validate_name($name)
