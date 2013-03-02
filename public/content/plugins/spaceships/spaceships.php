@@ -9,11 +9,10 @@
  * Author URI: http://URI_Of_The_Plugin_Author
  * License: A "Slug" license name e.g. GPL2
  *
- * Depends: Custom Object Class
+ * Depends: custom-objects
  */
 
 use rhodesjason\wordpress\CustomObject;
 
 $spaceships = new CustomObject("spaceships", array("public" => true));
-
 
